@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
-
 .nav {
-  text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -18,7 +16,7 @@
   margin-left: 2rem;
 }
 .nav-item:hover {
-  background-color: var(--third-color);
-  color: var(--primary-color);
+  background: linear-gradient(to right, rgb(0, 116, 194), rgb(190, 0, 190));
+  color: rgba(148, 255, 246, 0.589);
   transition: 0.5s;
 }

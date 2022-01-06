@@ -9,6 +9,11 @@ export const Home = () => {
             <div className="home-heading">
                 I'm <span className="home-name">Anurag</span>
                 </div>
+                <div className="desc">
+                    Full Stack Developer | SaaS Developer 
+                </div>
+                <div className="Km">
+                <button className='btn-km'>  <a href='#about'>Know-More </a> </button></div>
         </div>
     )
 }

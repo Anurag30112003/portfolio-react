@@ -1,21 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-.home{
-    background: url(../img/background.svg)  ;
-    background-repeat: repeat-x,y;
-    width: 90vw;
-    height: 100vh;      
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+.home {
+  background: url(../img/background.svg);
+  background-repeat: repeat-x, y;
+  width: 90vw;
+  height: 100vh;
 }
-.home-subheading{
-    font-family: 'Licorice', cursive;
-    font-size: 4rem;
-    color: var(--secondary-color);
-    text-align: center;
-    margin-top: 10vh;
+.home-subheading {
+  font-family: "Licorice", cursive;
+  font-size: 3rem;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 10vh;
 }
-.home-heading{
+.home-heading {
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: "Maven Pro", sans-serif;
+  font-size: 4rem;
+}
+.home-name {
+  background: linear-gradient(to right, var(--third-color), rgb(170, 30, 170));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.desc {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 3vh;
+}
+.Km{
     text-align: center;
-    color: var(--fifth-color);
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 5rem;
+    margin-top: 2rem;
+}
+.btn-km {
+  /* background: linear-gradient(to right, var(--third-color), rgb(170, 30, 170)); */
+  color: var(--fourth-color);
+  background-color: var(--third-color);
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 12px 25px;
+  border: none;
+}
+.btn-km:hover {
+   background: linear-gradient(to right, rgb(72, 93, 209), rgb(170, 30, 170)); 
+  color: rgb(178, 205, 255);
+}
+.btn-km a{
+    color: var(--fourth-color);
+  background-color: var(--third-color);
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+}
+.btn-km a:hover {
+    background: linear-gradient(to right, rgb(72, 93, 209), rgb(170, 30, 170)); 
+  color: rgb(178, 205, 255);
 }
