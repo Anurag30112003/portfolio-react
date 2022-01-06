@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+.home{
+    background: url(../img/background.svg)  ;
+    background-repeat: repeat-x,y;
+    width: 90vw;
+    height: 100vh;      
+}
+.home-subheading{
+    font-family: 'Licorice', cursive;
+    font-size: 5vw;
+    color: #fff;
+    text-align: center;
+    margin-top: 10vh;
+}
