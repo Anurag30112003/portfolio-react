@@ -1,3 +1,10 @@
 *{
-  background-color: #072227;
+  background-color: var(--primary-color);
+}
+:root {
+  --primary-color: #072227;
+  --secondary-color: #35858B;
+  --third-color: #4FBDBA;
+  --fourth-color: #032f36;
+  --fifth-color: #AEFEFF;
 }

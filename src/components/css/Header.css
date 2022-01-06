@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-:root {
-  --primary-color: #072227;
-  --secondary-color: #aefeff;
-  --third-color: #35858b;
-  --fourth-color: #032f36;
-}
+
 
 .nav {
   text-align: center;
@@ -15,7 +10,7 @@
 .nav-item {
   font-family: "Quicksand", sans-serif;
   padding: 7px 15px;
-  color: var(--secondary-color);
+  color: var(--third-color);
   font-size: 1.5rem;
   text-decoration: none;
   border-radius: 10px;

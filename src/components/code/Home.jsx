@@ -6,6 +6,9 @@ export const Home = () => {
             <div className="home-subheading">
                 Hello
             </div>
+            <div className="home-heading">
+                I'm <span className="home-name">Anurag</span>
+                </div>
         </div>
     )
 }
