@@ -1,0 +1,11 @@
+:root{
+    --primary-color: #1a0457;
+    --secondary-color: #f2f2f2;
+}
+
+.nav-item{
+    background-color: blue;
+    padding: 5px 5px;
+    color: var(--secondary-color);
+    
+}
