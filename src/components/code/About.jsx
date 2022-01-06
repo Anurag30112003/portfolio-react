@@ -3,6 +3,7 @@ import '../css/About.css'
 import profile from'../img/profile.png'
 export const About = () => {
     return (
+        <section id='#about'>
         <div className='about'>
             <h1 className='about-title'>About</h1>
             {/* <hr className='about-hr'/> */}
@@ -12,6 +13,6 @@ export const About = () => {
                 I am a full stack developer.</p>
                 <img src={profile} alt="" className='profile' />
             </div>
-        </div>
+        </div></section>
     )
 }
