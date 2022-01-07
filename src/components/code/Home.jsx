@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Home.css'
+import { Link } from 'react-router-dom'
 export const Home = () => {
     return (
         <div className='home'>
@@ -13,7 +14,7 @@ export const Home = () => {
                     Full Stack Developer | SaaS Developer 
                 </div>
                 <div className="Km">
-                <button className='btn-km'>  <a href='#about'>Know-More </a> </button></div>
+                 < Link className='km-more' to='/about'>Know-More </Link> </div>
         </div>
     )
 }

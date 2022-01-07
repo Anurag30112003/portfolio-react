@@ -35,20 +35,8 @@
     text-align: center;
     margin-top: 2rem;
 }
-.btn-km {
-  /* background: linear-gradient(to right, var(--third-color), rgb(170, 30, 170)); */
-  color: var(--fourth-color);
-  background-color: var(--third-color);
-  text-align: center;
-  font-size: 1.9rem;
-  padding: 12px 25px;
-  border: none;
-}
-.btn-km:hover {
-   background: linear-gradient(to right, rgb(72, 93, 209), rgb(170, 30, 170)); 
-  color: rgb(178, 205, 255);
-}
-.btn-km a{
+
+.km-more{
     color: var(--fourth-color);
   background-color: var(--third-color);
   text-align: center;
@@ -57,7 +45,7 @@
   border: none;
   text-decoration: none;
 }
-.btn-km a:hover {
+.km-more:hover {
     background: linear-gradient(to right, rgb(72, 93, 209), rgb(170, 30, 170)); 
   color: rgb(178, 205, 255);
 }

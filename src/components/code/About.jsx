@@ -6,7 +6,6 @@ export const About = () => {
         <section id='#about'>
         <div className='about'>
             <h1 className='about-title'>About</h1>
-            {/* <hr className='about-hr'/> */}
             <div className="about-text">
                 <p className='about-p'>
                 Hey there I am Anurag from India.
